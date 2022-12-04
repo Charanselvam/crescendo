@@ -28,7 +28,7 @@ export default function PostCard({CardContent}) {
       <Image
       boxSize='250px'
       objectFit='cover'
-         src={process.env.PUBLIC_URL + CardContent.image}
+         src={process.env.PUBLIC_URL+CardContent.image}
          alt={CardContent.name}
       />
       </Link>

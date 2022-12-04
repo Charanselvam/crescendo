@@ -13,7 +13,7 @@ export default function PostCardScreen() {
           <Image src={process.env.PUBLIC_URL +  image} alt={name} fluid />
     
             <Box>
-              Description : {description}
+              {description}
             </Box>
   </div>
   )
