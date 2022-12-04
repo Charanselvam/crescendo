@@ -17,7 +17,7 @@ function App() {
     <Stack>
       <NavBar/>
       <Routes>
-          <Route  index element={<MainScreen/>} />
+          <Route  path="crescendo/" element={<MainScreen/>} />
           <Route path="CardContent/:id" element={<PostCardScreen />}/>
        </Routes>
       <Footer/>
