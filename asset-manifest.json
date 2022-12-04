@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/crescendo/static/js/main.681aeae9.js",
+    "main.js": "/crescendo/static/js/main.98c525b7.js",
     "static/media/SWingz.png": "/crescendo/static/media/SWingz.23a432ae5102f543b394.png",
     "index.html": "/crescendo/index.html",
-    "main.681aeae9.js.map": "/crescendo/static/js/main.681aeae9.js.map"
+    "main.98c525b7.js.map": "/crescendo/static/js/main.98c525b7.js.map"
   },
   "entrypoints": [
-    "static/js/main.681aeae9.js"
+    "static/js/main.98c525b7.js"
   ]
 }
