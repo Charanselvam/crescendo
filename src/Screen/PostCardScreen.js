@@ -10,7 +10,7 @@ export default function PostCardScreen() {
     const { image, name, description } = post;
   return (
     <div>
-          <Image src={image} alt={name} fluid />
+          <Image src={process.env.PUBLIC_URL +  image} alt={name} fluid />
     
             <Box>
               Description : {description}

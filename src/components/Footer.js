@@ -1,7 +1,16 @@
-import React from 'react'
+import { Center, Grid, GridItem } from "@chakra-ui/react";
+import React from "react";
 
-export default function Footer() {
+function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <Center>
+      <Grid>
+        <GridItem>
+          <div> CRESCENDO &copy; {new Date().getFullYear()} </div>
+        </GridItem>
+      </Grid>
+    </Center>
+  );
 }
+
+export default Footer;
